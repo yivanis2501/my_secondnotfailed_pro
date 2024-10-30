@@ -1,0 +1,162 @@
+* {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: Roboto-Regular;
+    margin: unset;
+    padding: unset;
+    border: unset;
+    outline: unset;
+    box-sizing: border-box;
+    list-style: none;
+    color: white;
+}
+
+button {
+    background-color: transparent;
+}
+
+.fondo {
+    background-image: url(assets/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+/*-----------------Directivas-------------*/
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(/assets/Roboto-Regular.ttf);
+}
+
+/*-----------------Header-----------------*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 60px;
+    background-color: #100318;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.buscador {
+    display: flex;
+    align-items: center;
+    background-color: #eae9ea;
+    padding: 15px 20px 15px 30px;
+    border-radius: 10px;
+}
+
+.buscador input{
+    background-color: #eae9ea;
+}
+
+.imagenes {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/*-----------------Main-----------------*/
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reproductor {
+    display: flex;
+    align-items: center;
+    background-image: url(/assets/reproductor.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+}
+
+.menu {
+    position: sticky;
+    top: 20px;
+}
+
+.reproductor_encabezado {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+}
+
+.reproductor_contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.reproductor_contenido img{
+    border-radius: 20px;
+}
+
+.reproductor_botones {
+    display: flex;
+    gap: 20px;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contenido_artistas {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.contenido_artistas img{
+    border-radius: 100px;
+}
+
+.contenido_artistas div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.contenido_canciones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+}
+
+.contenido_canciones img{
+    border-radius: 15px;
+    height: 220px;
+}
+
+.cancion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/*-----------------Footer-----------------*/
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 60px;
+    background-color: #100318;
+}
