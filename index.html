@@ -5,170 +5,149 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="keywords" content="<meta name=" keywords" content="">
-    <meta name="description" content="<meta name=" description" content="">
-
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="assets/pngwing.com 2.svg" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <title> The note</title>
 </head>
 
-</html>
-
-
 <body class="fondo">
     <header>
-        
-            <div class="encabezado">
-                
 
-                <img src="assets/pngwing.com 2.svg" alt="">
-                <p>Mas de 150 millones de canciones sin anuncios</p>
+        <div class="logo">
+            <img src="assets/pngwing.com 2.svg" alt="">
+            <p>Mas de 150 millones de <br> canciones sin anuncios.</p>
+        </div>
+        <div class="buscador">
+            <form action="">
+                <input type="text" placeholder="Search">
+            </form>
+            <button><img src="assets/Group.png" alt=""></button>
+        </div>
+        <div class="imagenes">
+            <img src="assets/pngwing.com (5) 1.png" alt="">
+            <img src="assets/pngwing.com (2) 1.png" alt="">
+            <img src="assets/pngwing.com (4) 1 (1).png" alt="">
+        </div>
+    </header>
+
+    <main>
+
+        <div class="reproductor">
+            <div class="menu">
+                <div class="reproductor_encabezado">
+                    <button><img src="assets/vector atras.svg" alt=""></button>
+                    <p>REPRODUCIENDO</p>
+                    <button><img src="assets/corazon.svg" alt=""></button>
+                </div>
+                <div class="reproductor_contenido">
+                    <img src="assets/Frame 1.jpg" alt="">
+                    <h2>WILDFLOWER</h2>
+    
+                    <div class="reproductor_botones">
+                        <button> <img src="assets/Play/Playback.svg" alt=""></button>
+                        <button> <img src="assets/Button_Play.svg" alt=""></button>
+                        <button> <img src="assets/Next.svg" alt=""></button>
+                    </div>
+                </div>
             </div>
-            <div>
-                <img src="assets/pngwing.com (5) 1.png" alt="">
-                <img src="assets/pngwing.com (2) 1.png" alt="">
-                <img src="assets/pngwing.com (4) 1 (1).png" alt="">
-            </div>
+        </div>
 
-            <div>
+        <div class="contenido">
 
-                <button><img src="assets/magnifyingglass.svg" alt="">search <img src="assets/Group.png" alt=""></button>
-
+            <div class="contenido_artistas">
+                <!----artista 1----->
                 <div>
+                    <img src="assets/BILLIE EILISH.jpg" alt="">
+                    <h2>BILLIE EILISH</h2>
+                </div>
+    
+                <!----artista 2----->
+                <div>
+                    <img src="assets/JB.jpg" alt="">
+                    <h2>JUSTIN BIEBER</h2>
+                </div>
+    
+                <!----artista 3----->
+                <div>
+                    <img src="assets/TWKND (1).jpg" alt="">
+                    <h2>THE WEEKND</h2>
+                </div>
+    
+                <!----artista 4----->
+                <div>
+                    <img src="assets/KG.jpg" alt="">
+                    <h2>KAROL G</h2>
+                </div>
+    
+                <!----artista 5----->
+                <div>
+                    <img src="assets/MLMA.jpg" alt="">
+                    <h2>MALUMA</h2>
+                </div>
+    
+                <!----artista -6---->
+                <div>
+                    <img src="assets/FXXX.jpg" alt="">
+                    <h2>FEID</h2>
+                </div>
+            </div>
+    
+            <div class="contenido_canciones" id="track-list">
+                <div class="cancion">
+                    <img src="assets/MANANA B (1).jpg" alt="">
+                    <h1>MAÑANA SERA BONITO</h1>
+                </div>
+    
+                <!--------album 2------>
+                <div class="cancion">
+                </div>
+    
+                <!--------album 3------>
+                <div class="cancion">
+                    <img src="assets/BALAS P.jpg" alt="">
+                    <h1>BALAS PERDIDAS</h1>
+                </div>
+    
+                <!--------album 4------>
+                <div class="cancion">
+                    <img src="assets/STARBOY.jpg" alt="">
+                    <h1>STARBOY</h1>
+                </div>
+    
+                <!--------album 5------>
+                <div class="cancion">
+                    <img src="assets/111.jpg" alt="">
+                    <h1>111</h1>
+                </div>
+    
+                <!--------album 6------>
+                <div class="cancion">
+                    <img src="assets/ENTROPIA.jpg" alt="">
+                    <h1>ENTROPIA</h1>
+                </div>
+    
+    
+            </div>
 
-                    <main>
-
-                        <div>
-                            <button><img src="assets/vector atras.svg" alt=""></button>
-                            <p>REPRODUCIENDO</p>
-                            <button><img src="assets/corazon.svg" alt=""></button>
-                        </div>
-                        <div class="reproductor">
-                            <div>
-                                <img src="assets/Frame 1.jpg" alt="">
-                            </div>
-
-                            <div>
-                                <h2>WILDFLOWER</h2>
-
-                                <div>
-                                    <button> <img src="assets/Play/Playback.svg" alt=""></button>
-                                    <button> <img src="assets/Button_Play.svg" alt=""></button>
-                                    <button> <img src="assets/Next.svg" alt=""></button>
-                                </div>
-                            </div>
-                            <section>
-
-                                <!--------album 1------>
-                                <div>
-                                    <div>
-                                        <img src="assets/MANANA B (1).jpg" alt="">
-                                        <div>
-
-                                            <div>
-                                                <h1>MAÑANA SERA BONITO</h1>
-                                            </div>
-
-                                            <!--------album 2------>
-                                            <div>
-                                                <img src="assets/sakura ft.png" alt="">
-                                            </div>
-
-                                            <div>
-                                                <h1>SAKURA</h1>
-                                            </div>
-
-                                            <!--------album 3------>
-                                            <div>
-                                                <img src="assets/BALAS P.jpg" alt="">
-                                            </div>
-
-                                            <div>
-                                                <h1>BALAS PERDIDAS</h1>
-                                            </div>
-
-                                            <!--------album 4------>
-                                            <div>
-                                                <img src="assets/STARBOY.jpg" alt="">
-                                            </div>
-
-                                            <div>
-                                                <h1>STARBOY</h1>
-                                            </div>
-
-                                            <!--------album 5------>
-                                            <div>
-                                                <img src="assets/111.jpg" alt="">
-                                            </div>
-
-                                            <div>
-                                                <h1>111</h1>
-                                            </div>
-
-                                            <!--------album 6------>
-                                            <div>
-                                                <img src="assets/ENTROPIA.jpg" alt="">
-                                            </div>
-
-                                            <div>
-                                                <h1>ENTROPIA</h1>
-                                            </div>
-
-                                            <section>
-                                                <!----artista 1----->
-                                                <div>
-                                                    <img src="assets/BILLIE EILISH.jpg" alt="">
-                                                    <h2>BILLIE EILISH</h2>
-                                                </div>
-
-                                                <!----artista 2----->
-                                                <div>
-                                                    <img src="assets/JB.jpg" alt="">
-                                                    <h2>JUSTIN BIEBER</h2>
-                                                </div>
-
-                                                <!----artista 3----->
-                                                <div>
-                                                    <img src="assets/TWKND (1).jpg" alt="">
-                                                    <h2>THE WEEKND</h2>
-                                                </div>
-
-                                                <!----artista 4----->
-                                                <div>
-                                                    <img src="assets/KG.jpg" alt="">
-                                                    <h2>KAROL G</h2>
-                                                </div>
-
-                                                <!----artista 5----->
-                                                <div>
-                                                    <img src="assets/MLMA.jpg" alt="">
-                                                    <h2>MALUMA</h2>
-                                                </div>
-
-                                                <!----artista -6---->
-                                                <div>
-                                                    <img src="assets/FXXX.jpg" alt="">
-                                                    <h2>FEID</h2>
-                                                </div>
-
-                                            </section>
-                                        </div>
-                            </section>
-                    </main>
+        </div>
 
 
-                    <footer>
-                        <div>
-                            <img src="assets/pngwing.com 2.svg" alt="">
-                            <p class="servicios_copyrigth"> © 2024 — Copyright </p>
-                        </div>
+    </main>
 
-                        <div class="footer_asset_redes">
-                            <img src="assets/X.png" alt="">
-                            <img src="assets/gmail (1).png" alt="">
-                            <img src="assets/ig.png" alt="">
-                        </div>
-                    </footer>
+    <footer>
+        <img src="assets/pngwing.com 2.svg" alt="">
+        <p class="servicios_copyrigth"> © 2024 — Copyright </p>
+        <div class="imagenes">
+            <img src="assets/X.png" alt="">
+            <img src="assets/gmail (1).png" alt="">
+            <img src="assets/ig.png" alt="">
+        </div>
+    </footer>
 
-                    <body>
-                        <header>
+    <script src="/main.js"></script>
+
+</body>
+</html>
